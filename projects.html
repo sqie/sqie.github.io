@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/projects.css">
   </head>
 
   <body>
+
     <!--sidebar navigation -->
     <div class="sidenav">
       <a href="index.html">Home</a>
@@ -17,8 +19,67 @@
       <a href="experience.html">Experience</a>
       <a href="projects.html">Projects</a>
     </div>
-    <div>
-      projects
-    </div>
+
+    <section id= "projects" class="container margin-bottom full-height">
+
+      <div class="card-deck inner top">
+        <div class="card">
+            <img src="img/MyRecipes.png" class="card-img-top rounded" alt="...">
+            <div class="card-body card-text">
+              <h5 class="card-title inline-element">MyRecipes</h5>
+              <a class = "dark-link-element" href="https://github.com/sqie/MyRecipes" target="_blank" style="text-decoration: none">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <p class="card-text">An iOS app that stores and displays users' food recipes</p>
+              <button type="button" class="btn btn-outline-primary" disabled>Swift</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/MovieRevenue.PNG" class="card-img-top rounded" alt="...">
+            <div class="card-body card-text">
+              <h5 class="card-title inline-element">What Makes Movies Earn More Money?</h5>
+              <a class = "dark-link-element" href="https://github.com/npateel/npateel.github.io" target="_blank" style="text-decoration: none">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <p class="card-text">A data science notebook that explores the factors that influence a given movie’s revenue through data tidying, exploratory data analysis, and machine learning for predictions</p>
+              <button type="button" class="btn btn-outline-primary" disabled>Python</button>
+            </div>
+        </div>
+     </div>
+
+     <br></br>
+
+      <div class="card-deck inner bottom">
+        <div class="card">
+          <img src="img/Snowball.PNG" class="card-img-top rounded" alt="...">
+          <div class="card-body card-text">
+            <h5 class="card-title inline-element">Snowball</h5>
+            <a class = "dark-link-element" href="https://github.com/sqie/snowball" target="_blank" style="text-decoration: none">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <p class="card-text">A 2D game that involves moving on a grid to avoid being hit by incoming snowballs</p>
+            <button type="button" class="btn btn-outline-primary" disabled>Java</button>
+            <button type="button" class="btn btn-outline-primary" disabled>Photoshop</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/portfolio-v1.PNG" class="card-img-top rounded" alt="...">
+          <div class="card-body card-text">
+            <h5 class="card-title inline-element">Personal Website</h5>
+            <a class = "dark-link-element" href="https://github.com/sqie/sqie.github.io" target="_blank" style="text-decoration: none">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <p class="card-text">My personal website to showcase my experience and projects</p>
+            <div class = "blueAccentColor">
+              <button type="button" class="btn btn-outline-primary inline-element" disabled>HTML</button>
+              <button type="button" class="btn btn-outline-primary inline-element" disabled>CSS</button>
+              <button type="button" class="btn btn-outline-primary inline-element" disabled>Bootstrap</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
   </body>
 </html>

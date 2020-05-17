@@ -1,8 +1,14 @@
-.intro {
-    position: absolute;
-    top: 28%;
+.inner {
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 10%;
+}
+
+.top {
+    padding-top: 10%;
+}
+
+.bottom {
+    padding-bottom: 10%;
 }
 
 ion-icon {
@@ -21,4 +27,8 @@ ion-icon {
 
 .dark-link-element:hover{
     color: #AC83FF;
+}
+
+.inline-element{
+    display:inline-block;
 }
