@@ -1,3 +1,28 @@
+.colorTheme{
+    background: #020031;
+    color: #D3D7FF;
+}
+
+.purpleBackground{
+    background: #020031;
+}
+
+.purpleAccentColor{
+     color: #AC83FF;
+}
+
+.blueAccentColor{
+    color: #52F1FF;
+}
+
+.pinkAccentColor{
+    color: #F18CFF;
+}
+
+.lightBlueAccentColor{
+    color: #77D6FF;
+}
+
 .intro {
     position: absolute;
     top: 28%;
@@ -32,6 +57,14 @@ ion-icon {
     padding-right: 20px;
 }
 
+.link-element{
+    color: #D3D7FF;
+}
+
+.link-element:hover{
+  color: #F18CFF;
+}
+
 .dark-link-element{
     color: #020031;
 }
@@ -46,11 +79,13 @@ ion-icon {
 
 /*navigation sidebar*/
 .sidenav {
+  height: 100%;
   width: 11%;
   position: fixed;
-  top: 33%;
+  z-index: 1;
+  top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #7B8BFF;
   overflow-x: hidden;
   padding-top: 1%;
 }
@@ -59,15 +94,21 @@ ion-icon {
   padding: 1% 1% 10% 10%;
   text-decoration: none;
   font-size: 1.3vw;
-  color: #818181;
+  color: #D3D7FF;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #FBB9FF;
 }
 
-@media screen and (max-width: 450px) {
-  .sidenav {padding-left: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-width : 480px){
+
+  .sidenav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 125px;
+      background-color: #ddd;
+    }
 }
