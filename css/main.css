@@ -102,21 +102,21 @@ ion-icon {
   color: #FBB9FF;
 }
 
-@media screen and (max-width : 800px){
+@media screen and (max-width : 1000px){
 
   .sidenav {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      height: 5%;
+      height: 50px;
       background-color: #7B8BFF;
     }
 
     .sidenav a {
-      padding: 1% 1% 10% 10%;
+      padding: 50% 2% 5% 10%;
       text-decoration: none;
-      font-size: 1.3vw;
+      font-size: 15px;
       color: #D3D7FF;
       display: inline;
     }
