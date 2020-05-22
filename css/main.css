@@ -7,6 +7,10 @@
     background: #020031;
 }
 
+.blackText {
+    color: 	#000000;
+}
+
 .purpleAccentColor{
      color: #AC83FF;
 }
@@ -36,7 +40,7 @@
 }
 
 .top {
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .spacing {
@@ -100,24 +104,4 @@ ion-icon {
 
 .sidenav a:hover {
   color: #FBB9FF;
-}
-
-@media screen and (max-width : 1000px){
-
-  .sidenav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 5%;
-      background-color: #7B8BFF;
-    }
-
-    .sidenav a {
-      padding: 50% 2% 0% 5%;
-      text-decoration: none;
-      font-size: 15px;
-      color: #D3D7FF;
-      display: inline;
-    }
 }
