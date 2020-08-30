@@ -7,6 +7,10 @@
     background: #020031;
 }
 
+.pinkBackground{
+  background: #ff99ff;
+}
+
 .blackText {
     color: 	#000000;
 }
@@ -32,12 +36,12 @@
 }
 
 .inner {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .top {
-    padding-top: 8%;
+    padding-top: 5%;
 }
 
 .spacing {
@@ -45,7 +49,7 @@
 }
 
 .bottom {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .center {
@@ -83,29 +87,4 @@ ion-icon {
 
 .inline-element{
     display:inline-block;
-}
-
-/*navigation sidebar*/
-.sidenav {
-  height: 100%;
-  width: 11%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #7B8BFF;
-  overflow-x: hidden;
-  padding-top: 1%;
-}
-
-.sidenav a {
-  padding: 1% 1% 10% 10%;
-  text-decoration: none;
-  font-size: 1.3vw;
-  color: #D3D7FF;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #FBB9FF;
 }
