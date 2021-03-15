@@ -39,6 +39,7 @@
     position: relative;
     top: 50%;
     transform: translateY(50%); 
+    margin-bottom: 5%;
 }
 
 #about{
@@ -61,6 +62,10 @@
 
 .experienceBlock{
     margin-bottom: 2%;
+}
+
+.experienceInfo{
+    margin-right: 11%;
 }
 
 /*projects*/
