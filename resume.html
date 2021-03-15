@@ -8,14 +8,14 @@
       gtag('js', new Date());
       gtag('config', 'UA-166973001-1');
     </script>
+
     <title>Stephanie Qie</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  <body class = "colorTheme">
+  <body class="colorTheme">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand">Stephanie Qie</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
             <a class="nav-link" href="index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Resume<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html">Resume</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="projects.html">Projects</a>
@@ -35,151 +35,150 @@
         </ul>
       </div>
     </nav>
-    <div class="container top inner bottom">
-      <center>
-        <h3 class="inline-element">Resume</h3>
-        <a class = "link-element" href="resume/StephanieQie_Resume.pdf" target="_blank" style="text-decoration: none">
-          <ion-icon name="document" class = "icon"></ion-icon>
-        </a>
-      </center>
-      <br></br>
-      <h3 class="purpleAccentColor">Experience</h3>
-      <br></br>
-      <div class="row">
-        <div class="col">
-          <img src="img/microsoft.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
-        </div>
-        <div class="col-10">
-          <div class="row">
-            <div class="col-10 lightBlueAccentColor"><h4>Microsoft</h4></div>
-            <div class="col-2"><h7>Summer 2020</h7></div>
+    <div class="container block">
+      <h3 class="heading">Resume</h3>
+      <div class="d-flex justify-content-center">
+        <a id="resumeButton" href="resume/StephanieQie_Resume.pdf" target="_blank" class="btn btn-outline-light" role="button">View Resume</a>
+      </div>
+      
+      <div class="resumeBlock">
+        <h3 class="subheading purple">Experience</h3>
+        <div class="row experienceBlock">
+          <div class="col">
+            <img src="img/microsoft.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
           </div>
-          <h5><span class = "pinkAccentColor">Software Engineer Intern</span><span class = "periwinkleAccentColor"> - D365 Commerce, Site Builder Team</span></h5>
-          <h5>Worked on generating thumbnails for Pages and Page Fragments to improve search and discoverability in the Site Builder tool (C#, TypeScript, React, Angular)</h5>
-          <ul>
-            <li><h5>Services: Handled capturing screenshots for thumbnails and storing/updating thumbnails in the backend</h5></li>
-            <li><h5>UX: Worked on routing for API calls, displaying thumbnails in the right-rail for inspectors and picker dialogs, and creating a thumbnail view for pages and fragments</h5></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row spacing">
-        <div class="col">
-          <img src="img/intuit.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
-        </div>
-        <div class="col-10">
-          <div class="row">
-            <div class="col-10 lightBlueAccentColor"><h4>Intuit</h4></div>
-            <div class="col-2"><h7>Summer 2019</h7></div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-10 lightBlue"><h4>Microsoft</h4></div>
+              <div class="col-2"><p>Summer 2020</p></div>
+            </div>
+            <h5 class="lightPurple">Software Engineer Intern - D365 Commerce, Site Builder Team</h5>
+            <h5>Worked on generating thumbnails for Pages and Page Fragments to improve search and discoverability in the Site Builder tool (C#, TypeScript, React, Angular)</h5>
+            <ul>
+              <li><h5>Services: Handled capturing screenshots for thumbnails and storing/updating thumbnails in the backend</h5></li>
+              <li><h5>UX: Worked on routing for API calls, displaying thumbnails in the right-rail for inspectors and picker dialogs, and creating a thumbnail view for pages and fragments</h5></li>
+            </ul>
           </div>
-          <h5><span class = "pinkAccentColor">Software Engineer Intern</span><span class = "periwinkleAccentColor"> - TurboTax Mobile Team</span></h5>
-          <ul>
-            <li><h5>TaxCaster App (iOS): Fixed VoiceOver accessibility features for the date picker cells, toggle cells, and switch cells (Swift)</h5></li>
-            <li><h5>SmartLook for TurboTax App (Android): Created views from designs on Zeplin, made animations for the agent view, handled
-            features for landscape and tablet modes, and integrated code functionality into a model-view-controller pattern  (Kotlin, Java)</h5></li>
-          </ul>
         </div>
-      </div>
-      <div class="row spacing">
-        <div class="col">
-          <img src="img/nist.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
-        </div>
-        <div class="col-10">
-          <div class="row">
-            <div class="col-10 lightBlueAccentColor"><h4>National Institute of Standards and Technology</h4></div>
-            <div class="col-2"><h7>Summer 2017</h7></div>
+        <div class="row experienceBlock">
+          <div class="col">
+            <img src="img/intuit.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
           </div>
-          <h5><span class = "pinkAccentColor">Intern</span><span class = "periwinkleAccentColor"> - NIST Center for Neutron Research</span></h5>
-          <h5>Created a combined module feature that represents a collection of modules that are linked
-            together as inputs and outputs for the Dataflow Diagram (JavaScript, HTML, CSS)</h5>
-        </div>
-      </div>
-      <br></br>
-      <br></br>
-      <h3 class="purpleAccentColor">Education</h3>
-      <br></br>
-      <div class="row">
-        <div class="col">
-          <img src="img/umd.svg" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
-        </div>
-        <div class="col-10">
-          <div class="row">
-            <div class="col-9"><h4 class="lightBlueAccentColor">University of Maryland, College Park</h4></div>
-            <div class="col-3"><h7>Aug. 2018 - May 2021</h7></div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-10 lightBlue"><h4>Intuit</h4></div>
+              <div class="col-2"><p>Summer 2019</p></div>
+            </div>
+            <h5 class="lightPurple">Software Engineer Intern - TurboTax Mobile Team</h5>
+            <ul>
+              <li><h5>TaxCaster App (iOS): Fixed VoiceOver accessibility features for the date picker cells, toggle cells, and switch cells (Swift)</h5></li>
+              <li><h5>SmartLook for TurboTax App (Android): Created views from designs on Zeplin, made animations for the agent view, handled
+              features for landscape and tablet modes, and integrated code functionality into a model-view-controller pattern  (Kotlin, Java)</h5></li>
+            </ul>
           </div>
-          <h5>B.S. in Computer Science, Minor in Statistics</h5>
+        </div>
+        <div class="row experienceBlock">
+          <div class="col">
+            <img src="img/nist.png" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-10 lightBlue"><h4>National Institute of Standards and Technology</h4></div>
+              <div class="col-2"><p>Summer 2017</p></div>
+            </div>
+            <h5 class="lightPurple">Intern - NIST Center for Neutron Research</h5>
+            <h5>Created a combined module feature that represents a collection of modules that are linked
+              together as inputs and outputs for the Dataflow Diagram (JavaScript, HTML, CSS)</h5>
+          </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <h3 class="purpleAccentColor">Coursework</h3>
-      <br></br>
-      <div class="row">
-        <div class="col">
-          <h4 class="pinkAccentColor">Computer Science</h4>
-          <ul>
-            <li><h5>Introduction to Machine Learning</h5></li>
-            <li><h5>Computer and Network Security</h5></li>
-            <li><h5>Programming Handheld Systems (iOS)</h5></li>
-            <li><h5>Advanced Data Structures</h5></li>
-            <li><h5>Bioinformatic Algorithms, Databases, and Tools</h5></li>
-            <li><h5>Introduction to Data Science</h5></li>
-            <li><h5>Organization of Programming Languages</h5></li>
-            <li><h5>Algorithms</h5></li>
-            <li><h5>Introduction to Computer Systems</h5></li>
-            <li><h5>Discrete Structures</h5></li>
-            <li><h5>Object-Oriented Programming 2</h5></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h4 class="pinkAccentColor">Statistics/Math</h4>
-          <ul>
-            <li><h5>Actuarial Mathematics</h5></li>
-            <li><h5>Introduction to Statistical Computing with SAS</h5></li>
-            <li><h5>Applied Probability and Statistics 2</h5></li>
-            <li><h5>Linear Algebra for Scientists and Engineers</h5></li>
-            <li><h5>Applied Probability and Statistics 1</h5></li>
-            <li><h5>Calculus III</h5></li>
-          </ul>
+
+      <div class="resumeBlock">
+        <h3 class="subheading purple">Education</h3>
+        <div class="row">
+          <div class="col">
+            <img src="img/umd.svg" class="img-fluid img-thumbnail" alt="..." height="70" width="70">
+          </div>
+          <div class="col-10">
+            <div class="row">
+              <div class="col-9"><h4 class="lightBlue">University of Maryland, College Park</h4></div>
+              <div class="col-3"><p>Aug. 2018 - May 2021</p></div>
+            </div>
+            <h5>B.S. in Computer Science, Minor in Statistics</h5>
+          </div>
         </div>
       </div>
-      <br></br>
-      <br></br>
-      <h3 class="purpleAccentColor">Skills</h3>
-      <br></br>
-      <div class="row">
-        <div class="col">
-          <h4 class="lightBlueAccentColor">Languages</h4>
-          <ul>
-            <li><h5>Java</h5></li>
-            <li><h5>Python</h5></li>
-            <li><h5>C</h5></li>
-            <li><h5>Swift</h5></li>
-            <li><h5>C#</h5></li>
-            <li><h5>TypeScript/JavaScript</h5></li>
-            <li><h5>HTML/CSS</h5></li>
-            <li><h5>Kotlin</h5></li>
-            <li><h5>Ruby</h5></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h4 class="lightBlueAccentColor">Web</h4>
-          <ul>
-            <li><h5>React</h5></li>
-            <li><h5>Angular</h5></li>
-            <li><h5>Bootstrap</h5></li>
-          </ul>
-        </div>
-        <div class="col">
-          <h4 class="lightBlueAccentColor">Other</h4>
-          <ul>
-            <li><h5>Git</h5></li>
-          </ul>
+
+      <div class="resumeBlock">
+        <h3 class="subheading purple">Coursework</h3>
+        <div class="row">
+          <div class="col">
+            <h4 class="lightPurple">Computer Science</h4>
+            <ul>
+              <li><h5>Computer and Network Security</h5></li>
+              <li><h5>Introduction to Machine Learning</h5></li>
+              <li><h5>Programming Handheld Systems (iOS)</h5></li>
+              <li><h5>Advanced Data Structures</h5></li>
+              <li><h5>Bioinformatic Algorithms, Databases, and Tools</h5></li>
+              <li><h5>Introduction to Data Science</h5></li>
+              <li><h5>Organization of Programming Languages</h5></li>
+              <li><h5>Algorithms</h5></li>
+              <li><h5>Introduction to Computer Systems</h5></li>
+              <li><h5>Discrete Structures</h5></li>
+              <li><h5>Object-Oriented Programming 2</h5></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="lightPurple">Statistics/Math</h4>
+            <ul>
+              <li><h5>Actuarial Mathematics</h5></li>
+              <li><h5>Introduction to Statistical Computing with SAS</h5></li>
+              <li><h5>Applied Probability and Statistics 2</h5></li>
+              <li><h5>Linear Algebra for Scientists and Engineers</h5></li>
+              <li><h5>Applied Probability and Statistics 1</h5></li>
+              <li><h5>Calculus III</h5></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
+      
+      <div class="resumeBlock">
+        <h3 class="subheading purple">Skills</h3>
+        <div class="row">
+          <div class="col">
+            <h4 class="lightBlue">Languages</h4>
+            <ul>
+              <li><h5>Java</h5></li>
+              <li><h5>Python</h5></li>
+              <li><h5>C</h5></li>
+              <li><h5>JavaScript/TypeScript</h5></li>
+              <li><h5>HTML/CSS</h5></li>
+              <li><h5>Swift</h5></li>
+              <li><h5>C#</h5></li>
+              <li><h5>Kotlin</h5></li>
+              <li><h5>Ruby</h5></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="lightBlue">Web</h4>
+            <ul>
+              <li><h5>React</h5></li>
+              <li><h5>Bootstrap</h5></li>
+              <li><h5>Angular</h5></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4 class="lightBlue">Other</h4>
+            <ul>
+              <li><h5>Git</h5></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
     <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>

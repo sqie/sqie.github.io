@@ -1,24 +1,28 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166973001-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
       gtag('config', 'UA-166973001-1');
     </script>
+
     <title>Stephanie Qie</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="viewport" content="initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
-  <body class = "colorTheme">
+
+  <body class="colorTheme">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand">Stephanie Qie</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -30,71 +34,83 @@
             <a class="nav-link" href="resume.html">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="projects.html">Projects<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="projects.html">Projects</a>
           </li>
         </ul>
       </div>
     </nav>
-    <center><h3 class="inline-element top">Projects</h3></center>
-    <section id= "projects" class="container bottom full-height blackText">
-      <div class="card-deck inner top">
-        <div class="card">
+    <div class="container block">
+      <h3 class="heading">Projects</h3>
+      <div class="projectsBlock">
+        <div class="card-deck projectRow">
+          <div class="card">
             <img src="img/MyRecipes.png" class="card-img-top rounded" alt="...">
             <div class="card-body card-text">
-              <h5 class="card-title inline-element">MyRecipes</h5>
-              <a class = "dark-link-element" href="https://github.com/sqie/MyRecipes" target="_blank" style="text-decoration: none">
+              <h5 class="card-title inlineElement">MyRecipes</h5>
+              <a class="darkLinkElement" href="https://github.com/sqie/MyRecipes" target="_blank"
+                style="text-decoration: none">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
               <p class="card-text">An iOS app that stores and displays users' food recipes</p>
               <button type="button" class="btn btn-outline-primary" disabled>Swift</button>
             </div>
-        </div>
-        <div class="card">
+          </div>
+          <div class="card">
             <img src="img/MovieRevenue.png" class="card-img-top rounded" alt="...">
             <div class="card-body card-text">
-              <h5 class="card-title inline-element">What Makes Movies Earn More Money?</h5>
-              <a class = "dark-link-element" href="https://github.com/npateel/npateel.github.io" target="_blank" style="text-decoration: none">
+              <h5 class="card-title inlineElement">What Makes Movies Earn More Money?</h5>
+              <a class="darkLinkElement" href="https://github.com/npateel/npateel.github.io" target="_blank"
+                style="text-decoration: none">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
-              <p class="card-text">A data science notebook that explores the factors that influence a given movie’s revenue through data tidying, exploratory data analysis, and machine learning for predictions</p>
+              <p class="card-text">A data science notebook that explores the factors that influence a given movie’s
+                revenue through data tidying, exploratory data analysis, and machine learning for predictions</p>
               <button type="button" class="btn btn-outline-primary" disabled>Python</button>
             </div>
-        </div>
-     </div>
-     <br></br>
-      <div class="card-deck inner bottom">
-        <div class="card">
-          <img src="img/snowball.png" class="card-img-top rounded" alt="...">
-          <div class="card-body card-text">
-            <h5 class="card-title inline-element">Snowball</h5>
-            <a class = "dark-link-element" href="https://github.com/sqie/snowball" target="_blank" style="text-decoration: none">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-            <p class="card-text">A 2D game that involves moving on a grid to avoid being hit by incoming snowballs</p>
-            <button type="button" class="btn btn-outline-primary" disabled>Java</button>
-            <button type="button" class="btn btn-outline-primary" disabled>Photoshop</button>
           </div>
         </div>
-        <div class="card">
-          <img src="img/portfolio-v1.png" class="card-img-top rounded" alt="...">
-          <div class="card-body card-text">
-            <h5 class="card-title inline-element">Personal Website</h5>
-            <a class = "dark-link-element" href="https://github.com/sqie/sqie.github.io" target="_blank" style="text-decoration: none">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-            <p class="card-text">My personal website to showcase my experience and projects</p>
-            <div class = "blueAccentColor">
-              <button type="button" class="btn btn-outline-primary inline-element" disabled>HTML</button>
-              <button type="button" class="btn btn-outline-primary inline-element" disabled>CSS</button>
-              <button type="button" class="btn btn-outline-primary inline-element" disabled>Bootstrap</button>
+        <div class="card-deck projectRow">
+          <div class="card">
+            <img src="img/snowball.png" class="card-img-top rounded" alt="...">
+            <div class="card-body card-text">
+              <h5 class="card-title inlineElement">Snowball</h5>
+              <a class="darkLinkElement" href="https://github.com/sqie/snowball" target="_blank"
+                style="text-decoration: none">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <p class="card-text">A 2D game that involves moving on a grid to avoid being hit by incoming snowballs</p>
+              <button type="button" class="btn btn-outline-primary" disabled>Java</button>
+              <button type="button" class="btn btn-outline-primary" disabled>Photoshop</button>
+            </div>
+          </div>
+          <div class="card projectCard">
+            <img src="img/portfolio-v1.png" class="card-img-top rounded" alt="...">
+            <div class="card-body card-text">
+              <h5 class="card-title inlineElement">Personal Website</h5>
+              <a class="darkLinkElement" href="https://github.com/sqie/sqie.github.io" target="_blank"
+                style="text-decoration: none">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <p class="card-text">My personal website to showcase my experience and projects</p>
+              <div class="blueAccentColor">
+                <button type="button" class="btn btn-outline-primary inlineElement" disabled>HTML</button>
+                <button type="button" class="btn btn-outline-primary inlineElement" disabled>CSS</button>
+                <button type="button" class="btn btn-outline-primary inlineElement" disabled>Bootstrap</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
     <script src="https://unpkg.com/ionicons@4.5.0/dist/ionicons.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
   </body>
 </html>
